@@ -2,3 +2,38 @@
 	border-style: solid;
 	border-color: coral;
 }
+
+/*
+ *
+ * Header
+ *
+*/
+
+.header__inner {
+	width: 100%;
+}
+
+.header__logo {
+	height: 80px;
+}
+
+
+/*
+ *
+ * Content
+ *
+*/
+
+/*
+ *
+ * Featured Work
+ *
+*/
+
+.project-pic {
+	max-height: 240px;
+}
+
+figcaption  a {
+	display: block;
+}
