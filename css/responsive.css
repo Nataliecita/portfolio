@@ -1,0 +1,22 @@
+body {
+	/*background-color: green;*/
+}
+
+/*Mobile*/
+@media screen and (max-width: 360px){
+	body {
+		background-color: #e0de6d;
+	}
+}
+
+/*Tablet*/
+@media screen and (min-width: 361px) and (max-width: 768px){
+
+}
+
+
+/*Laptop*/
+@media screen and (min-width: 769px){
+
+}
+
