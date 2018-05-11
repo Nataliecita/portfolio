@@ -5,7 +5,11 @@ body {
 /*Mobile*/
 @media screen and (max-width: 360px){
 	body {
-		background-color: #e0de6d;
+/*		background-color: #e0de6d;
+*/	}
+
+	.header__logo {
+/*		width: 40%*/
 	}
 }
 
