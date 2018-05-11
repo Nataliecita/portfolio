@@ -25,9 +25,6 @@ body {
   box-sizing: border-box;
 }
 
-
-
-
 /*
  *
  * Header
@@ -42,7 +39,6 @@ body {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  /*display: inline-block;*/
 }
 
 .header__logo {
@@ -55,14 +51,12 @@ body {
 	display: inline-block;
 	float: right;
 	text-align: right;
-
 	padding: 2% 5%;
 }
 
 .header__title {
   font-size: 2em;
   width: 100%;
-/*  margin: 0.5em 0.25em;*/
 	text-align: right;
 }
 
@@ -82,11 +76,13 @@ body {
 .main-pic {
 	width:100%;
 	height: auto;
-	display: hide;*/
+	margin-bottom: 20px;
 }
 
-p {
-	padding: 0 10px 0 10px;
+.block-text {
+	margin-left: auto;
+  margin-right: auto;
+  width: 20em;
 }
 
 h2, figcaption {
@@ -100,6 +96,10 @@ h2, figcaption {
  *
 */
 
+.projects {
+	margin-top: 20px;
+}
+
 .project-pic {
 	width: 100%;
 	height: auto;
@@ -107,4 +107,20 @@ h2, figcaption {
 
 figcaption  a {
 	display: block;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+/*
+ *
+ * Footer
+ *
+*/
+
+footer{
+	padding-top: 10px;
 }
