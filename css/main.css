@@ -17,13 +17,15 @@ h1, h2, h3, h4, h5 {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   color: #424242;
 }
 
 * {
   box-sizing: border-box;
 }
+
+
 
 
 /*
@@ -51,19 +53,23 @@ body {
 
 .header__text {
 	display: inline-block;
+	float: right;
 	text-align: right;
-	padding-left: 3em;
+
+	padding: 2% 5%;
 }
 
 .header__title {
-  font-size: 3em;
+  font-size: 2em;
   width: 100%;
 /*  margin: 0.5em 0.25em;*/
+	text-align: right;
 }
 
 .header_subtitle {
 	width: 100%;
 	margin: -2em;
+	text-align: right;
 }
 
 
@@ -77,6 +83,15 @@ body {
 	width:100%;
 	height: auto;
 	display: hide;*/
+}
+
+p {
+	padding: 0 10px 0 10px;
+}
+
+h2, figcaption {
+	text-align: center;
+
 }
 
 /*
